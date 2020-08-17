@@ -11,7 +11,7 @@
                           <thead>
                             <tr>
                               
-                              <th class="tab_head" scope="col">Risk Categories</th>
+                              <th class="tab_head" scope="col">Risk Category</th>
                               <th class="tab_head" scope="col">Portfolio split %</th>
                               <th class="tab_head" scope="col">Portfolio Performance %</th>
                             </tr>
