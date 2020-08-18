@@ -1,26 +1,26 @@
 <template>
   <div id="app">
-    <Return/>
+    <Average/>
     <Risklvl/>
-    <Loan/>
-    <CatPerf/>
+    <Purpose/>
+    <Performance/>
     
   </div>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import Return from './components/Return'
+import Average from './components/Average'
 import Risklvl from './components/Risklvl'
-import Loan from './components/Loan'
-import CatPerf from './components/CatPerf'
+import Purpose from './components/Purpose'
+import Performance from './components/Performance'
 export default {
   name: 'App',
   components: {
-    Return,
+    Average,
     Risklvl,
-    Loan,
-    CatPerf
+    Purpose,
+    Performance
   
   }
 }

@@ -1,12 +1,12 @@
 <template>
     <div id="Risk">
-        <section class="risk_level shadow-sm p-3 mb-5 bg-white rounded">
+        <section class="risk_level ">
         <div class="container">
           
         <div>
             <h3>Risk level in our plateform</h3>
             <h6>After doing rigorous checks on social, professional, financial and behavioral of the borrowrs, the accepted borrowers</h6>
-            <h6>are listed on the plateform with risk rating as defined below:</h6> 
+            <h6 style="margin-bottom:20px;">are listed on the plateform with risk rating as defined below:</h6> 
         </div>
         
             <div class="row table_move">

@@ -1,28 +1,4 @@
-<template>
-  <div>
-       <section class="average_return shadow-sm p-3 mb-5 bg-white rounded">
-              <div class="container">
-               <div class="row">
-                  <div class="col-12">
-              <div>
-                <h3>Average Return (%)</h3>
-                <h6>Quarter-wise returns for lenders are as follows</h6>
-                <h6>Investors on Lendbox enjoy healthy return for thier investments in P2P Loans through us.</h6> 
-              </div>
-            
-                    <div class=" chart">
-                       <Bar-chart :chartdata="chartdata" :options="options" height="auto" width="auto"/>
-                       
-                    </div>
-                </div>
-                </div>
-                </div>
-        
-      </section>
 
-  </div>
-</template>
- 
 <script>
 import BarChart from './BarChart'
 import { Bar } from 'vue-chartjs'
@@ -78,7 +54,9 @@ export default {
                 
             }]
         
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: false
     }
   }),
 
@@ -88,46 +66,4 @@ export default {
 }
        
 </script>
-<style scoped>
 
-.chart {
-  text-align: center;
-  margin: auto;
-  margin-top: 40px;
-  
-}
-
-
-
-h3 {
-  text-align: center;
-  margin-top: 0%;
-}
-h6{
-    text-align: center;
-    font-weight: lighter;
-}
-.table{
-    text-align: center;
-    width: 170px;
-    margin: 10px;
-    border: 10px;
-    
-}
-.tab_dat{
-    background-color: #e9e9e9;
-    border-radius: 10%,0,10%,0;
-}
-.category{
-    
-    height: 433px;
-    margin-top: 8%;
-    text-align: center;
-    margin-left: 10%;
-}
-section{
-    margin-bottom: 40px;
-}
-.tw0_bar{margin-top: 50px;}
-
-</style>

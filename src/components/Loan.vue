@@ -1,29 +1,4 @@
-<template>
-    <div id="loan">
-        <section class="Loan_purpose shadow-sm p-3 mb-5 bg-white rounded">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    
-        <div>
-                <h3>Loan Purpose</h3>
-                <h6>Lendbox gives consumer loans to salaried and self-employed professional and funds are majorly</h6>
-                <h6>used for personal purpose. Percentage split of various Loan Purpose is as follows:</h6> 
-        </div>
-            
-                    <div class="chart">
-                       <doughnut-chart :chartdata="chartdata" :options="options" />
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    </section>
 
-
-    </div>
-</template>
 <script>
 import DoughnutChart from './DoughnutChart'
 import { Doughnut } from 'vue-chartjs'
@@ -66,7 +41,9 @@ export default {
             var percentage = Math.floor(((currentValue/total) * 100)+0.5);         
             return percentage + "%";
         }
-      }}
+      }},
+      responsive: true,
+      maintainAspectRatio: false
     }
   }),
 
@@ -76,26 +53,3 @@ export default {
 }
        
 </script>
-<style scoped>
-.chart {
-  
-margin: auto;
-margin-top: 40px;
-}
-
-
-
-h3 {
-  text-align: center;
-}
-h6{
-    text-align: center;
-    font-weight: lighter;
-}
-
-
-section{
-    margin-bottom: 40px;
-}
-.tw0_bar{margin-top: 50px;}
-</style>
