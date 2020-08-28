@@ -95,13 +95,7 @@ h6{
     background-color: #e9e9e9;
     border-radius: 10%,0,10%,0;
 }
-.category{
-    
-    height: 433px;
-    margin-top: 8%;
-    text-align: center;
-    margin-left: 10%;
-}
+
 section{
     margin-bottom: 40px;
 }
@@ -149,13 +143,7 @@ section{
         align-content: center;
         margin-left: 10%;
     }
-  .category{
-    
-    height: 233px;
-    margin-top: 5%;
-    text-align: center;
-    margin-left: 2%;
-}
+  
         
 }
 @media only screen and (max-width: 460px){

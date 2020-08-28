@@ -11,7 +11,7 @@
               </div>
             
                     <div class=" chart">
-                       <!-- <Bar-chart :chartdata="chartdata" :options="options" height="auto" width="auto"/> -->
+                       
                        <Return/>
                     </div>
                 </div>

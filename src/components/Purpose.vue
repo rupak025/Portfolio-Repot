@@ -12,7 +12,6 @@
         </div>
             
                     <div style="margin-bottom:30px;">
-                       <!-- <doughnut-chart :chartdata="chartdata" :options="options" /> -->
                        <Loan/>
                     </div>
                 </div>

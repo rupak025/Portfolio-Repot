@@ -9,7 +9,6 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 import Average from './components/Average'
 import Risklvl from './components/Risklvl'
 import Purpose from './components/Purpose'

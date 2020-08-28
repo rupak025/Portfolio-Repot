@@ -63,7 +63,6 @@
                     <h3 style="margin-bottom:20px;">Portfolio performance as per age </h3>
                     
                      <div class=" chart ">
-                        <!-- <Bar-chart :chartdata="chartdata" :options="options" class="portbar" height="fit-content" width="auto "/> -->
                         <CatPerf/>
                     </div></div>
                     
